@@ -1,10 +1,12 @@
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FFC617;
+}
+
 body {
+    margin: 0;
     text-align: center;
-    margin: 0;
-} */
-body {
-    margin: 0;
 
 }
 
@@ -30,4 +32,26 @@ body {
 
 #btn-translate {
     text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 6 00;
+}
+
+img {
+    background-color: white;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    margin-top: 2rem;
 }

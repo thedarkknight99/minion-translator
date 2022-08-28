@@ -11,8 +11,6 @@ function constructUrl(input) {
 function errorHandler(error) {
     console.log("error occurred", error);
 }
-
-//console.log(btnTranslate)
 function clickHandler() {
     var input = inputTxt.value;
 
